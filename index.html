@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GAMEDEV</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Rohan Mohite</span>
+                    <span class="title-line">Portfolio</span>
+                </h1>
+                <p class="hero-subtitle">Game Developer passionate about creating fun and interactive experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="game-cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <h3 id="professional-projects" class="section-subtitle">Professional Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Speed Racer</h3>
+                        <p class="project-description">High-octane racing game with realistic physics and stunning visuals.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Physics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Play Demo</a>
+                            <a href="#" class="project-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mind Puzzle</h3>
+                        <p class="project-description">A brain-teasing puzzle game with beautiful minimalist design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Godot</span>
+                            <span class="tech-tag">GDScript</span>
+                            <span class="tech-tag">2D</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Play Demo</a>
+                            <a href="#" class="project-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 id="personal-projects" class="section-subtitle">Personal Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Horse Racing 3D</h3>
+                        <p class="project-description">Ride, race, and conquer the tracks in Horse Racing 3D.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Blend Tree</span>
+                            <span class="tech-tag">Terrain</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="Videos/Horse Racing 3D Gameplay.mp4" class="project-link" target="_blank" rel="noopener">View Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Kitchen Chaos</h3>
+                        <p class="project-description">Cook fast, serve smart, beat the clock!</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="Videos/Kitchen chaos game play.mp4" class="project-link" target="_blank" rel="noopener">View Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dodge Block</h3>
+                        <p class="project-description">Dodge the blocks, survive the challenge.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="Videos/Block-Dodge - Loading - Android - Unity 2022.3.12f1 _DX11_ 2023-12-02 16-19-11.mp4" class="project-link" target="_blank" rel="noopener">View Video</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">The Rocket</h3>
+                        <p class="project-description">Avoid danger, master the landing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="Videos/Rocket.mp4 " class="project-link" target="_blank" rel="noopener">View Video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Game Engines</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">Unity</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">PlayCanvas</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Godot</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">C#</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">OpenGL</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="skill-category">
+                    <h3 class="category-title">Graphics & Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">3D Modeling</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Animation</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I am a passionate Unity Developer with nearly 2 years of hands-on experience in designing and building interactive applications and games. My expertise lies in Unity3D, where I specialize in gameplay programming, performance optimization, and creating engaging user experiences.
+                    </p>
+                    <p class="about-description">
+                        Alongside Unity, I have a strong foundation in C++, which helps me write efficient, scalable, and clean code. I am also exploring OpenGL to deepen my understanding of graphics programming and low-level rendering concepts, strengthening my ability to optimize visuals and performance.
+                    </p>
+                    <p class="about-description">
+                        I enjoy solving complex programming challenges, working on game mechanics, and continuously learning new technologies. With a strong problem-solving mindset and a detail-oriented approach, I strive to write high-quality, maintainable code and contribute to building innovative, polished products.                    </p>
+                    <!-- <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Games Created</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Game Engines</div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="about-image">
+                    <div class="profile-photo">
+                        <img src="Images/Profile/profile.jpg" alt="Rohan Mohite" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rohanmohite2017@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7720979098</span>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Your Location</span>
+                        </div> -->
+                    </div>
+                    <div class="social-links">
+                        <!-- <a href="https://github.com/RohanMohite2001" class="social-link" target="_blank" rel="noopener"><i class="fab fa-github"></i></a> -->
+                        <a href="https://www.linkedin.com/in/rohan-mohite-709879215/" class="social-link" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/Rohan_20022001/" class="social-link" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-youtube"></i></a> -->
+                    </div>
+                </div>
+                <!-- <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Game Developer Portfolio. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
